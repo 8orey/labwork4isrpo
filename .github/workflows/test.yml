@@ -21,7 +21,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run tests
-        run: python -m unittest test_area_calculator.py
+        run: python -m unittest tests.py
 
   test-windows:
     runs-on: windows-latest
@@ -38,4 +38,4 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run tests
-        run: python -m unittest test_area_calculator.py
+        run: python -m unittest tests.py
